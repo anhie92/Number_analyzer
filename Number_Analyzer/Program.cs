@@ -49,8 +49,8 @@ while (true)
     var restartNumberAnalyzer = Console.ReadLine();
 
 
-    if (restartNumberAnalyzer.ToLower() != "yes")
-        if (restartNumberAnalyzer.ToLower() != "y")
+    if (restartNumberAnalyzer.ToLower() != "yes" && restartNumberAnalyzer.ToLower() != "y")
+        
         {
             Console.WriteLine("Goodbye!");
             break;
