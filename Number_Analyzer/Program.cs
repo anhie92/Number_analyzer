@@ -20,7 +20,7 @@ while (true)
         {
             Console.WriteLine($"{userName} you entered {userNumber} which is odd and less than 60");
         }
-        if (userNumber > 60)
+        else 
         {
             Console.WriteLine($"{userName} you entered {userNumber} which is odd and greater than 60");
         }
@@ -33,11 +33,11 @@ while (true)
         {
             Console.WriteLine($"{userName} you entered {userNumber} which is even and less than 25");
         }
-        if (userNumber >= 25 && userNumber <= 60)
+        else if (userNumber <= 60)
         {
             Console.WriteLine($"{userName} you entered {userNumber} which is even and between 26 and 60");
         }
-        if (userNumber > 60)
+        else
         {
             Console.WriteLine($"{userName} you entered {userNumber} which is even and greater than 60");
         }
@@ -50,12 +50,11 @@ while (true)
 
 
     if (restartNumberAnalyzer.ToLower() != "yes")
-     if (restartNumberAnalyzer.ToLower() != "y")
+        if (restartNumberAnalyzer.ToLower() != "y")
         {
             Console.WriteLine("Goodbye!");
             break;
         }
-
 
 
 
